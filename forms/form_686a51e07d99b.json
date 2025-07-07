@@ -1,0 +1,32 @@
+{
+    "questions": [
+        {
+            "text": "enter your name:",
+            "type": "text"
+        },
+        {
+            "text": "about yourself",
+            "type": "textarea"
+        },
+        {
+            "text": "choose dept",
+            "type": "radio",
+            "options": [
+                "it",
+                "cse"
+            ]
+        },
+        {
+            "text": "choose section",
+            "type": "checkbox",
+            "options": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "text": "upload resume",
+            "type": "file"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formly - Create a Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📝 Create Your Custom Form</h2>
+
+    <form id="formly-form">
+      <div id="questions-area">
+        <!-- Questions will appear here -->
+      </div>
+
+      <div class="question-creator">
+  <label>Question Type:</label>
+  <select id="question-type">
+    <option value="text">Short Answer</option>
+    <option value="textarea">Paragraph</option>
+    <option value="radio">Multiple Choice (Single)</option>
+    <option value="checkbox">Checkboxes</option>
+    <option value="file">File Upload</option>
+  </select>
+</div>
+<button type="button" id="add-question">➕ Add Question</button>
+
+
+      <button type="button" id="add-question">➕ Add Question</button>
+      <button type="submit">✅ Save Form</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
